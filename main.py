@@ -1,7 +1,7 @@
 import math,numpy as np
 import set,random
 class Mt:#计算类
-	def move_coordinate(self,ar1,ar2,max_speed):#我看不懂,但我大受震撼
+	def move_coordinate(self,ar1,ar2,max_speed):
 		#print('输进来的值',ar1,ar2,max_speed)
 		distance_x = ar2[0]-ar1[0]
 		distance_y = ar2[1] - ar1[1]
